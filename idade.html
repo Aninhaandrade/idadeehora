@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERIFICADOR DE IDADE</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <a href="index.html"><button style="background: #010708; border-radius: 6px; padding: 15px; cursor: pointer; color: white; border: none; font-size: 16px;">INÍCIO</button></a>
+    <a href="hora.html"><button style="background: #010708; border-radius: 6px; padding: 15px; cursor: pointer; color: white; border: none; font-size: 16px;">HORÁRIO</button></a>
+    <header>
+    <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+    <div>
+        <p>Ano de nascimento: 
+            <input type="number" name="txtano" id="txtano" min="0">
+        </p>
+        <p>Sexo:
+            <input type="radio" name="radsex" id="masc" checked>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+        </p>
+        <p>
+            <input type="button" value="verificar" onclick="verificar()">
+        </p>
+    </div>
+    <div id= "res">
+    Preencha os dados acima para ver o resultado!
+    </div>
+    </section>
+    <footer>
+    <p>&copy; Ana Luíza de Andrade Barbosa </p>
+    </footer>
+    <script src="script2.js"></script>
+</body>
+</html>
